@@ -1,0 +1,25 @@
+{
+  "name": "wakeonlan",
+  "version": "1.0.0",
+  "description": "Simple Wake on LAN alexa project",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavmall/WakeOnLAN.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Nodejs",
+    "Express",
+    "LAN"
+  ],
+  "author": "Abhinav Mall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavmall/WakeOnLAN/issues"
+  },
+  "homepage": "https://github.com/abhinavmall/WakeOnLAN#readme"
+}
