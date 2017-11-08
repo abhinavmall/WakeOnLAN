@@ -4,6 +4,8 @@
   "description": "Simple Wake on LAN alexa project",
   "main": "start.js",
   "scripts": {
+    "start": "node ./start.js",
+    "watch": "nodemon ./start.js --ignore public/",
     "test": "echo \\\"Error: no test specified\\\""
   },
   "repository": {
@@ -21,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/abhinavmall/WakeOnLAN/issues"
   },
-  "homepage": "https://github.com/abhinavmall/WakeOnLAN#readme"
+  "homepage": "https://github.com/abhinavmall/WakeOnLAN#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-wol": "^0.1.1",
+    "dotenv": "^4.0.0"
+  }
 }
